@@ -1,0 +1,23 @@
+{
+  "name": "interactions/validations",
+  "type": "symfony-bundle",
+  "description": "Validators for Form",
+  "keywords": [
+    "validation"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Interactions\\ValidationBundle\\InteractionsValidationBundle": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
