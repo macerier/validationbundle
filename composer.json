@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Interactions\\ValidationBundle\\InteractionsValidationBundle\\": ""
+      "Interactions\\ValidationBundle\\": ""
     },
     "exclude-from-classmap": [
       "/Tests/"
